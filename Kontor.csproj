@@ -48,7 +48,9 @@
     <Compile Include="Kook.cs" />
     <Compile Include="Koristajad.cs" />
     <Compile Include="Nooremarendajad.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="..\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ruumid.cs" />
     <Compile Include="Tootajad.cs" />
